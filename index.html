@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>طراح وب حرفه‌ای | رزومه آنلاین</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+    * {
+      margin: 0; padding: 0; box-sizing: border-box; direction: rtl;
+    }
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .card {
+      max-width: 700px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(10px);
+      text-align: center;
+    }
+    .card h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .card p {
+      font-size: 1.2rem;
+      line-height: 2;
+    }
+    .skills {
+      margin-top: 2rem;
+    }
+    .skills span {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      display: inline-block;
+      border-radius: 30px;
+      font-size: 0.95rem;
+      font-weight: bold;
+    }
+    .btn {
+      margin-top: 2rem;
+      background: #00c6ff;
+      color: #fff;
+      padding: 0.7rem 2rem;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #0072ff;
+    }
+    .portfolio {
+      margin-top: 80px;
+      text-align: center;
+    }
+    .portfolio h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffcc00;
+    }
+    .portfolio-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .portfolio-item {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 15px;
+      width: 250px;
+    }
+    .portfolio-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .portfolio-item p {
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>طراح وب خلاق و حرفه‌ای</h1>
+    <p>اگر دنبال طراحی سایت مدرن، واکنش‌گرا و پرسرعت هستید، اینجا بهترین جای ممکنه!<br />
+    با سابقه طراحی حرفه‌ای برای کسب‌وکارها، آماده‌ام تا پروژه‌ی بعدی شما رو متحول کنم.</p>
+
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>UI/UX Design</span>
+      <span>SEO</span>
+      <span>وردپرس</span>
+    </div>
+
+    <a href="#portfolio"><button class="btn" style="background: #ff416c; margin-top: 30px;">🔥 نمونه‌کارهای خفن</button></a>
+
+    <a href="tel:09373798037"><button class="btn">📞 تماس بگیرید: 09373798037</button></a><br />
+    <a href="tel:09195197428"><button class="btn" style="margin-top: 10px;">📞 تماس بگیرید: 09195197428</button></a>
+  </div>
+
+  <div id="portfolio" class="portfolio">
+    <h2>🔥 نمونه‌کارهای ما</h2>
+    <div class="portfolio-items">
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/250x150.png?text=پروژه+1" alt="Project 1" />
+        <p>سایت فروشگاهی مدرن</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/250x150.png?text=پروژه+2" alt="Project 2" />
+        <p>سایت شرکتی واکنش‌گرا</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/250x150.png?text=پروژه+3" alt="Project 3" />
+        <p>صفحه شخصی برای فریلنسر</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
